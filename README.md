@@ -1,5 +1,5 @@
-# Project Name
-Project description
+# Windows Task automation with PowerShell
+The automation in this repository will consist of PowerShell scripts related to Windows servers/pcs.
 
 # Disclaimer
 No Support and No Warranty are provided by SMA Technologies for this project and related material. The use of this project's files is on your own risk.
@@ -7,7 +7,7 @@ No Support and No Warranty are provided by SMA Technologies for this project and
 SMA Technologies assumes no liability for damage caused by the usage of any of the files offered here via this Github repository.
 
 # Prerequisites
-
+PowerShell v5.0+
 
 # Instructions
 
