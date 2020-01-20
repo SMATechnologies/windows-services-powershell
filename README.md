@@ -1,19 +1,26 @@
-# Windows Task automation with PowerShell
-The automation in this repository will consist of PowerShell scripts related to Windows servers/pcs.
+# Windows Services automation with PowerShell
+The automation in this repository will example scripts related to Windows managing services on servers/pcs.
+
+# Prerequisites
+* PowerShell v5.1
+
+# Instructions
+Parameters:
+* <b>Option</b> - What you are trying to do, "start" or "stop" the service.  Other options may be added in the future
+* <b>SvcName</b> - Name of the service you want to manage, accepts wildcards. (note this is the "Display Name")
+
+Example:
+```
+powershell.exe -ExecutionPolicy Bypass -File "C:\Windows_Services.ps1" -svcName "SMA*" -option "start"
+```
 
 # Disclaimer
 No Support and No Warranty are provided by SMA Technologies for this project and related material. The use of this project's files is on your own risk.
 
 SMA Technologies assumes no liability for damage caused by the usage of any of the files offered here via this Github repository.
 
-# Prerequisites
-PowerShell v5.0+
-
-# Instructions
-
-
 # License
-Copyright 2019 SMA Technologies
+Copyright 2020 SMA Technologies
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
